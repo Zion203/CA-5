@@ -1,0 +1,263 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Header Css --------------------------------------------- */
+
+nav{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  height:75px ;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+#linkers{
+  display: flex;
+}
+
+#linkers img{
+  margin-right: 30px;
+  height: 40px;
+}
+
+#anchors{
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-evenly;
+  
+}
+
+#anchors a{
+  color: black;
+  text-decoration: none;
+}
+
+.buttonSize{
+  height: 40px;
+  width: 200px;
+  /* margin-left: 55px; */
+  font-weight: bold;
+  border-radius: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonSize:nth-child(1){
+  background-color:white;
+  border: 2px solid rgb(181, 179, 179);
+}
+
+.buttonSize:nth-child(2){
+  background-color: rgb(238, 81, 81);
+  color: white;
+  border: unset;
+}
+
+#anchors p:hover{
+  font-weight:600;
+  position: relative;
+  bottom: 1px;
+}
+
+.buttonSize:nth-child(1):hover{
+  border: 2px solid rgb(111, 108, 108);
+}
+.buttonSize:nth-child(2):hover{
+  background-color: rgb(199, 72, 72);
+}
+
+/* End Header ---------------------------------------------------- */
+
+
+
+/* Book css ------------------------------------------------------------------- */
+
+#heading{
+  background-image: url("https://bookbub-res.cloudinary.com/image/upload/q_auto,f_auto/onboarding/SignupHeaderBackground");
+  height: 33vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.welcome{
+  display: inline-block;
+  font-size:50px;
+  background-color: rgb(234, 234, 225);
+  margin-bottom: 10px;
+}
+
+#inputDiv{
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 20%;
+  padding: 20px;
+  background-color:rgb(234, 234, 225) ;
+  justify-content: space-around;
+}
+
+#inputDiv button{
+  height: 40px;
+  font-weight: bold;
+  border-radius: 3px;
+  background-color: rgb(238, 81, 81);
+  color: white;
+  justify-content: center;
+  border: unset;
+}
+
+#inputDiv input{
+  height: 40px;
+  padding-left:10px ;
+  border-radius: 3px;
+  border: unset;
+  border: 1px solid rgb(176, 176, 176);
+}
+
+#content{
+  width: 78vw;
+  margin-top: 20px;
+}
+
+#content h1{
+  font-size:50px;
+}
+
+#con-book{
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.books{
+  height: 400px;
+  width: 22%;
+  /* border: 2px solid; */
+  padding: 20px;
+  margin-right: 3%;
+  margin-bottom: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.books_img{
+  width: 100%;
+  height: 80%;
+}
+
+.title{
+  font-weight:bold;
+  margin: 10px 0 5px 0;
+}
+
+.categ{
+  font-size: 0.9rem;
+}
+
+.rate{
+  font-weight: bold;
+  color: red;
+  margin-top: 10px;
+}
+
+/* Book css end ------------------------------------------------------------------ */
+
+.form-parent{
+  background-color:white;
+  /* color: white; */
+  text-align: center;
+  margin-top: 75px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 45vw;
+  padding: 20px 60px;
+  border-radius: 30px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.form-parent input{
+  height: 42px;
+  padding: 6px 12px;
+  width: 100%;
+  color: black;
+  border-radius: 5px;
+  border: unset;
+  border: 1px solid rgb(111, 108, 108);
+  margin: 10px 0 5px 0 ; 
+
+}
+
+#form-page{
+  background-image: url("https://res.cloudinary.com/bookbub/image/upload/f_auto,q_auto/welcome/casino-background_2x");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo{
+  margin-top: 50px;
+}
+
+#up{
+  font-size:40px;
+  margin-bottom: 20px;
+}
+
+.red-col{
+  text-align:left;
+  color: red;
+}
+
+.iup{
+  position: relative;
+  bottom: 18px;
+}
+
+#button1{
+  background-color: rgb(238, 81, 81);
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  border: unset;
+}
+
+#button1:hover{
+  background-color: rgb(199, 72, 72);
+}
+
+/* form css end ------------------------------------------------------------- */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  width: 100vw;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
